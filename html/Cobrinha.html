@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake PVP com Buffs</title>
+  <link rel="stylesheet" href="/css/Cobrinha.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="top-bar">
+      <span id="scoreA">Jogador A: 0</span>
+      <span id="timer">Tempo: 03:00</span>
+      <span id="scoreB">Jogador B: 0</span>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+    <button id="startBtn">Iniciar Jogo</button>
+    <div class="bubbles"></div>
+  </div>
+
+  <div class="instructions">
+  <div class="buffs">
+    <h2>Buffs</h2>
+    <ul>
+      <li>⚡ Aumenta a velocidade temporariamente</li>
+      <li>❄️ Diminui a velocidade do adversário temporariamente</li>
+      <li>⭐ Dá +3 pontos e aumenta o tamanho</li>
+      <li>🔄 Inverte os controles do adversário por alguns segundos</li>
+    </ul>
+  </div>
+</div>
+
+  <script src="/js/Cobrinha.js"></script>
+</body>
+</html>
